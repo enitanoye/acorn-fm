@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "slug": "generator-maintenance",
+      "title": "Generator Maintenance & Power Solutions",
+      "overview": "Routine servicing every 200 hours, ensuring optimal performance...",
+      "items": ["Scheduled generator servicing", "24/7 emergency support", "Supply of parts", "Clean generator areas", "Fuel consumption tracking"]
+    },
+    {
+      "id": 2,
+      "slug": "plumbing",
+      "title": "Plumbing & Electrical Maintenance",
+      "overview": "Comprehensive plumbing and electrical repairs...",
+      "items": ["Pipe repairs", "Electrical installations", "Preventive checks"]
+    },
+    {
+      "id": 3,
+      "slug": "plumbing",
+      "title": "Plumbing & Electrical Maintenance",
+      "overview": "Comprehensive plumbing and electrical repairs...",
+      "items": ["Pipe repairs", "Electrical installations", "Preventive checks"]
+    },
+    {
+      "id": 4,
+      "slug": "plumbing",
+      "title": "Plumbing & Electrical Maintenance",
+      "overview": "Comprehensive plumbing and electrical repairs...",
+      "items": ["Pipe repairs", "Electrical installations", "Preventive checks"]
+    },
+    {
+      "id": 5,
+      "slug": "plumbing",
+      "title": "Plumbing & Electrical Maintenance",
+      "overview": "Comprehensive plumbing and electrical repairs...",
+      "items": ["Pipe repairs", "Electrical installations", "Preventive checks"]
+    }
+  ]
