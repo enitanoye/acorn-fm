@@ -32,6 +32,28 @@ function GeneratorMaintenance() {
             </Link>
           </div>
         </div>
+        {/* <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">What's Included in Our Service</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Comprehensive cleaning solutions designed to meet all your facility maintenance needs
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {serviceData.features.map((feature, index) => (
+              <div
+                key={index}
+                className="flex items-center space-x-4 p-4 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors duration-200"
+              >
+                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
+                <span className="text-gray-800 font-medium text-lg">{feature}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section> */}
       </section>
     </div>
   );

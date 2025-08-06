@@ -11,21 +11,21 @@ function Contact() {
           </div>
         </section> */}
         <section className="bg-gradient-to-br from-indigo-900 to-purple-900 py-20 text-white">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="xtrw">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             {/* Left Content */}
             <div className="space-y-8">
-              <Badge className="bg-indigo-600/20 text-indigo-200 border-indigo-400/30 px-4 py-2">Get In Touch</Badge>
+              <Badge className="bg-indigo-600/20 text-[1.4rem] text-indigo-200 border-indigo-400/30 px-4 py-2">Get In Touch</Badge>
 
-              <h1 className="text-5xl font-bold leading-tight">
+              <p className="section-title !text-white">
                 Ready to Transform Your
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-purple-300">
                   {" "}
                   Facility Management?
                 </span>
-              </h1>
+              </p>
 
-              <p className="text-xl text-indigo-100 leading-relaxed">
+              <p className="text-[1.2rem] text-indigo-100 leading-relaxed">
                 Get your free consultation today.
               {/*
                Let's discuss how our comprehensive facility management solutions can streamline your operations and
@@ -42,10 +42,10 @@ function Contact() {
                   { icon: MapPin, text: "The Mezzanine, Bookshop House, 50–52 Broad Street, Lagos, Nigeria", label: "Visit Us" },
                 ].map((contact, index) => (
                   <div key={index} className="flex items-center space-x-4 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
-                    <contact.icon className="w-6 h-6 text-indigo-300" />
+                    <contact.icon className="w-8 h-8 text-indigo-300" />
                     <div>
-                      <div className="text-sm text-indigo-200">{contact.label}</div>
-                      {contact.link? <a href={contact.link}>{contact.text}</a>:<div className="font-medium">{contact.text}</div>}
+                      <div className="text-[1.4rem] text-indigo-200">{contact.label}</div>
+                      {contact.link? <a className="text-[1.4rem]" href={contact.link}>{contact.text}</a>:<div className="text-[1.4rem] font-medium">{contact.text}</div>}
                     </div>
                   </div>
                 ))}
