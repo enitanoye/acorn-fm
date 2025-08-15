@@ -1,9 +1,17 @@
 import { CheckCircle } from "lucide-react";
 import Hero from "../components/Hero";
+import { Helmet } from "react-helmet";
 
 function About() {
   return (
     <div>
+      <Helmet>
+        <title>Acorn Facilities Management - About Acorn Facilities Management</title>
+        <meta
+          name="description"
+          content="Delivering reliable and comprehensive facility services across Nigeria. World-class facility management services in Nigeria."
+        />
+      </Helmet>
       <Hero
         headline="About Acorn Facilities Management"
         subheadline="Delivering reliable and comprehensive facility services across Nigeria."

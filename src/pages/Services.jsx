@@ -6,12 +6,13 @@ import { useEffect, useState } from "react";
 import HeroSectionSmall from "../components/HeroSectionSmall";
 
 function Services() {
-  // const [services, setServices] = useState([]);
+  const [services, setServices] = useState([]);
 
-  // useEffect(() => {
-  //   import("../data.json").then((data) => setServices(data.default));
-  // }, []);
-  // console.log(services)
+  useEffect(() => {
+    import("../service.json").then((data) => setServices(data.default));
+  }, []);
+  console.log(services)
+
   const serviceCategories = [
     {
       title: "Technical Maintenance",
@@ -97,10 +98,10 @@ function Services() {
       <section className="py-12">
         <div className="xtrw flex flex-col gap-4 items-center">
           <p className="section-title">Explore Our Services</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {serviceCategories.map((category, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.map((category) => (
               <ServiceCard
-                key={index}
+                key={category.id}
                 title={category.title}
                 items={category.items}
               />

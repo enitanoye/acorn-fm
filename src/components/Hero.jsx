@@ -1,5 +1,6 @@
 import { ArrowRight, Shield, Users, Wrench } from "lucide-react";
 import { Link } from "react-router-dom";
+import Carousel from "./Carousel";
 
 function Hero({ headline, subheadline }) {
   return (
@@ -12,7 +13,7 @@ function Hero({ headline, subheadline }) {
       </div>
 
       <div className="relative z-10 xtrw  py-20 flex items-center ">
-        <div className="grid grid-cols-1 mdl:grid-cols-2 gap-4 items-center w-full">
+        <div className="grid grid-cols-1 mdl:grid-cols-2 gap-16 items-center w-full">
           {/* Left Content */}
           <div className="text-white space-y-8">
             <p className="text-[2rem] sm:text-[3.5rem] lg:text-[5rem] tracking-[-.025em] strong w-full font-bold leading-tight">
@@ -42,14 +43,19 @@ function Hero({ headline, subheadline }) {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="text-[1.4rem] tracking-[-.025em] bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-lg font-semibold hover:from-blue-600 hover:to-cyan-600 transition-all duration-300 flex items-center justify-center group">
+              {/* <button className="text-[1.4rem] tracking-[-.025em] bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-lg font-semibold hover:from-blue-600 hover:to-cyan-600 transition-all duration-300 flex items-center justify-center group">
                 Request a Quote
                 <ArrowRight className="w-8 h-8 ml-2 group-hover:translate-x-1 transition-transform" />
-              </button>
-              <button className="text-[1.4rem] tracking-[-.025em] border-2 border-white/30 text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-all duration-300">
+              </button> */}
+              <Link to={"/contact"} className="text-[1.4rem] tracking-[-.025em] border-2 border-white/30 text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-all duration-300">
                 Schedule a Consultation
-              </button>
+              </Link>
             </div>
+          </div>
+
+          {/* Right Content */}
+          <div className="overflow-hidden rounded-[1.6rem] h-[40rem] md+:max-w-[50rem] w-full">
+            <Carousel/>
           </div>
         </div>
       </div>

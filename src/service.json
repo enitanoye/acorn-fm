@@ -1,0 +1,305 @@
+[
+    {
+      "id": 1,
+      "title": "Technical Maintenance",
+      "items": [
+        {
+          "id": 1,
+          "slug": "generator-maintenance",
+          "title": "Generator Maintenance & Power Solutions",
+          "overview": "We provide routine servicing of generators every 200 hours, ensuring optimal performance and reduced downtime. Our maintenance includes oil and filter changes, emergency response, and power audits.",
+          "items": [
+            "Scheduled generator servicing",
+            "24/7 emergency support",
+            "Supply of parts from certified vendors",
+            "Clean, organized generator areas",
+            "Fuel consumption tracking"
+          ]
+        },
+        {
+          "id": 2,
+          "slug": "electrical-plumbing-systems",
+          "title": "Electrical & Plumbing Systems",
+          "overview": "We offer comprehensive maintenance for electrical and plumbing systems, ensuring safety and efficiency. Our services include inspections, repairs, and upgrades to prevent disruptions.",
+          "items": [
+            "Scheduled system inspections",
+            "24/7 emergency repairs",
+            "Supply of quality parts and fixtures",
+            "Clean and safe installation practices",
+            "Usage and efficiency tracking"
+          ]
+        },
+        {
+          "id": 3,
+          "slug": "borehole-water-treatment",
+          "title": "Borehole and Water Treatment",
+          "overview": "We specialize in borehole servicing and water treatment plant maintenance, ensuring clean and reliable water supply. Our approach includes regular checks, filtration, and quality testing.",
+          "items": [
+            "Scheduled borehole servicing",
+            "24/7 emergency support",
+            "Supply of treatment chemicals and parts",
+            "Clean, hygienic treatment areas",
+            "Water quality and consumption tracking"
+          ]
+        },
+        {
+          "id": 4,
+          "slug": "lift-hvac-servicing",
+          "title": "Lift and HVAC Servicing",
+          "overview": "We provide expert servicing for lifts and HVAC systems, focusing on safety and comfort. Our maintenance covers lubrication, testing, and energy-efficient upgrades.",
+          "items": [
+            "Scheduled lift and HVAC servicing",
+            "24/7 emergency response",
+            "Supply of certified components",
+            "Clean and organized system areas",
+            "Energy usage tracking"
+          ]
+        },
+        {
+          "id": 5,
+          "slug": "power-systems-installation",
+          "title": "Power Systems Installation",
+          "overview": "We handle professional installation of power systems, ensuring seamless integration and reliability. Our services include site assessments, wiring, and commissioning.",
+          "items": [
+            "Scheduled installation planning",
+            "24/7 support during setup",
+            "Supply of high-quality power equipment",
+            "Clean and secure installation sites",
+            "System performance tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cleaning & Janitorial",
+      "items": [
+        {
+          "id": 6,
+          "slug": "office-facility-cleaning",
+          "title": "Office & Facility Cleaning",
+          "overview": "We deliver thorough cleaning services for offices and facilities, maintaining hygiene and appearance. Our approach includes daily routines, deep cleans, and eco-friendly products.",
+          "items": [
+            "Scheduled cleaning sessions",
+            "24/7 emergency cleaning support",
+            "Supply of certified cleaning materials",
+            "Clean and sanitized work areas",
+            "Cleaning efficiency tracking"
+          ]
+        },
+        {
+          "id": 7,
+          "slug": "facade-glass-cleaning",
+          "title": "Façade and Glass Cleaning",
+          "overview": "We specialize in façade and glass cleaning, ensuring spotless exteriors and interiors. Our services use safe methods, high-reach equipment, and streak-free results.",
+          "items": [
+            "Scheduled façade cleaning",
+            "24/7 emergency services",
+            "Supply of specialized cleaning tools",
+            "Clean and polished surfaces",
+            "Maintenance schedule tracking"
+          ]
+        },
+        {
+          "id": 8,
+          "slug": "refuse-waste-disposal",
+          "title": "Refuse & Waste Disposal",
+          "overview": "We manage refuse and waste disposal efficiently, promoting sustainability. Our services include collection, recycling, and compliance with regulations.",
+          "items": [
+            "Scheduled waste collection",
+            "24/7 emergency disposal",
+            "Supply of waste management bins",
+            "Clean and odor-free disposal areas",
+            "Waste volume tracking"
+          ]
+        },
+        {
+          "id": 9,
+          "slug": "drainage-septic-tank-maintenance",
+          "title": "Drainage and Septic Tank Maintenance",
+          "overview": "We provide maintenance for drainage and septic systems, preventing blockages and overflows. Our services include pumping, inspections, and odor control.",
+          "items": [
+            "Scheduled septic servicing",
+            "24/7 emergency unblocking",
+            "Supply of treatment additives",
+            "Clean and functional systems",
+            "System health tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Safety & Security",
+      "items": [
+        {
+          "id": 10,
+          "slug": "manned-security-services",
+          "title": "Manned Security Services",
+          "overview": "We offer manned security services with trained personnel, ensuring protection and peace of mind. Our approach includes patrols, access control, and incident response.",
+          "items": [
+            "Scheduled security patrols",
+            "24/7 manned support",
+            "Supply of security equipment",
+            "Secure and monitored premises",
+            "Incident logging and tracking"
+          ]
+        },
+        {
+          "id": 11,
+          "slug": "cctv-installation-monitoring",
+          "title": "CCTV Installation & Monitoring",
+          "overview": "We install and monitor CCTV systems for enhanced surveillance. Our services cover high-definition cameras, remote access, and footage analysis.",
+          "items": [
+            "Scheduled CCTV maintenance",
+            "24/7 monitoring support",
+            "Supply of advanced cameras",
+            "Clear and reliable footage",
+            "System uptime tracking"
+          ]
+        },
+        {
+          "id": 12,
+          "slug": "fire-equipment-maintenance",
+          "title": "Fire Equipment Maintenance",
+          "overview": "We maintain fire equipment to ensure compliance and readiness. Our services include inspections, refills, and testing of alarms and extinguishers.",
+          "items": [
+            "Scheduled fire equipment checks",
+            "24/7 emergency servicing",
+            "Supply of certified fire gear",
+            "Compliant and functional systems",
+            "Maintenance record tracking"
+          ]
+        },
+        {
+          "id": 13,
+          "slug": "access-control-systems",
+          "title": "Access Control Systems",
+          "overview": "We install and maintain access control systems for secure entry. Our solutions include keycards, biometrics, and integration with security networks.",
+          "items": [
+            "Scheduled system updates",
+            "24/7 access support",
+            "Supply of control hardware",
+            "Secure and user-friendly access",
+            "Entry log tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Facility Enhancements",
+      "items": [
+        {
+          "id": 14,
+          "slug": "gardening-landscaping",
+          "title": "Gardening & Landscaping",
+          "overview": "We provide gardening and landscaping services to enhance outdoor spaces. Our maintenance includes planting, pruning, and seasonal care.",
+          "items": [
+            "Scheduled gardening sessions",
+            "24/7 emergency landscaping",
+            "Supply of plants and tools",
+            "Beautiful and maintained gardens",
+            "Growth and health tracking"
+          ]
+        },
+        {
+          "id": 15,
+          "slug": "swimming-pool-maintenance",
+          "title": "Swimming Pool Maintenance",
+          "overview": "We offer swimming pool maintenance for clean and safe pools. Our services include chemical balancing, filtration, and equipment repairs.",
+          "items": [
+            "Scheduled pool servicing",
+            "24/7 emergency fixes",
+            "Supply of pool chemicals",
+            "Crystal clear water",
+            "Water quality tracking"
+          ]
+        },
+        {
+          "id": 16,
+          "slug": "painting-carpentry",
+          "title": "Painting & Carpentry",
+          "overview": "We handle painting and carpentry tasks for facility enhancements. Our work ensures durable finishes and custom woodworking.",
+          "items": [
+            "Scheduled painting projects",
+            "24/7 repair support",
+            "Supply of quality materials",
+            "Neat and professional finishes",
+            "Project progress tracking"
+          ]
+        },
+        {
+          "id": 17,
+          "slug": "fixture-appliance-maintenance",
+          "title": "Fixture and Appliance Maintenance",
+          "overview": "We maintain fixtures and appliances to extend their lifespan. Our services include repairs, calibrations, and energy-efficient upgrades.",
+          "items": [
+            "Scheduled appliance checks",
+            "24/7 emergency repairs",
+            "Supply of replacement parts",
+            "Functional and efficient appliances",
+            "Usage and performance tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Administrative Support",
+      "items": [
+        {
+          "id": 18,
+          "slug": "procurement-services",
+          "title": "Procurement Services",
+          "overview": "We provide procurement services for facility needs, ensuring cost-effective sourcing. Our approach includes vendor selection, negotiation, and delivery.",
+          "items": [
+            "Scheduled procurement planning",
+            "24/7 sourcing support",
+            "Supply of vetted products",
+            "Timely and budget-friendly acquisitions",
+            "Procurement cost tracking"
+          ]
+        },
+        {
+          "id": 19,
+          "slug": "handyman-staff-provision",
+          "title": "Handyman Staff Provision",
+          "overview": "We supply trained handyman staff for on-site tasks. Our services ensure reliable personnel for repairs, installations, and daily maintenance.",
+          "items": [
+            "Scheduled staff deployment",
+            "24/7 handyman availability",
+            "Supply of skilled workers",
+            "Efficient and professional service",
+            "Task completion tracking"
+          ]
+        },
+        {
+          "id": 20,
+          "slug": "tenancy-service-charge-management",
+          "title": "Tenancy & Service Charge Management",
+          "overview": "We manage tenancy and service charges for smooth operations. Our services include billing, collections, and dispute resolution.",
+          "items": [
+            "Scheduled charge calculations",
+            "24/7 tenant support",
+            "Supply of management software",
+            "Accurate and transparent billing",
+            "Payment and compliance tracking"
+          ]
+        },
+        {
+          "id": 21,
+          "slug": "lease-negotiation-support",
+          "title": "Lease Negotiation Support",
+          "overview": "We offer support for lease negotiations, ensuring favorable terms. Our expertise covers contract reviews, renewals, and legal compliance.",
+          "items": [
+            "Scheduled negotiation sessions",
+            "24/7 advisory support",
+            "Supply of legal templates",
+            "Fair and compliant agreements",
+            "Negotiation progress tracking"
+          ]
+        }
+      ]
+    }
+  ]

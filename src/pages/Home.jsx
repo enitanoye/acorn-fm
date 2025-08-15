@@ -3,22 +3,15 @@ import ServiceCard from "../components/ServiceCard";
 import ClientCard from "../components/ClientCard";
 import CTA from "../components/CTA";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function Home() {
-  const services = [
-    {
-      title: "Generator Maintenance & Power Supply",
-      items: ["Routine servicing", "Emergency response", "Power audits"],
-    },
-    {
-      title: "Plumbing & Electrical Maintenance",
-      items: ["Repairs", "Installations", "Preventive maintenance"],
-    },
-    {
-      title: "Security & CCTV Systems",
-      items: ["Manned security", "CCTV monitoring", "Access control"],
-    },
-  ];
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    import("../service.json").then((data) => setServices(data.default.slice(0,3)));
+  }, []);
+  console.log(services)
 
   const clients = [
     "Citi Bank",
